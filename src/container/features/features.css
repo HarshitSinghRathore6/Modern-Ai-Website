@@ -1,4 +1,6 @@
-
+.gpt3__features-container__feature{
+    padding: 0px 15px ;
+}
 
 .gpt3__features-container__feature-title{
     flex: 1;
@@ -10,7 +12,7 @@
     font-family: var(--font-family);
     font-size: 18px;
     font-weight: 800;
-    line-height: 24px;
+    line-height: 35px;
     letter-spacing: -0.04em;
     color: #FFFFFF;
 }
@@ -35,6 +37,27 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
+    
+
+    color: var(--color-text);
+
+}
+
+.gpt3__features-container_feature-textb{
+    flex: 2;
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-content: right;
+
+}
+
+.gpt3__features-container_feature-textb p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    
     
 
     color: var(--color-text);

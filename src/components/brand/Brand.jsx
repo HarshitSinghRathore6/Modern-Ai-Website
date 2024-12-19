@@ -1,6 +1,6 @@
 import React from 'react'
 import './brand.css'
-import { google,slack, atlassian, dropbox, shopify } from './imports'
+import { google,slack, atlassian, dropbox, shopify, microsoft } from './imports'
 
 const Brand = () => {
   return (
@@ -9,9 +9,9 @@ const Brand = () => {
             <img src={google} alt="google" />
         </div>
         <div>
-            <img src={slack} alt="slack" />
+            <img  src={slack} alt="slack" />
         </div><div>
-            <img src={atlassian} alt="atlassian" />
+            <img src={microsoft} alt="microsoft" />
         </div><div>
             <img src={dropbox} alt="dropbox" />
         </div><div>
